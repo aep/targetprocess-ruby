@@ -35,7 +35,7 @@ module TargetProcess
             "General", "Assignable", "GeneralUser", "RequestType", "Message",
              "MessageUid", "Milestone", "Relation", "RelationType",
              "Requester", "Revision", "RevisionFile", "Tag", "Team",
-             "TeamIteration", "TeamMember", "TeamProject"]
+             "TeamIteration", "TeamMember", "TeamProject", "Epic"]
 
   init_code = ""
   ENTITIES.each do |name|
